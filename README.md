@@ -1,96 +1,80 @@
-🖨️ Integração Java com Impressora Elgin i9
+# 🖨️ Integração Java com Impressora Elgin i9
+### *(Coloque aqui o nome do seu projeto)*
+---
 
-(Coloque aqui o nome do seu projeto.)
+## 📘 Sobre o Projeto
 
-📘 Sobre o Projeto
+Este projeto foi desenvolvido por alunos com o objetivo de criar uma aplicação Java capaz de se comunicar com a impressora **Elgin i9**, utilizando comandos **ESC/POS**, testes de impressão e interação via porta de comunicação.  
+O trabalho faz parte da disciplina de **Programação Orientada a Objetos**.
 
-Este projeto foi desenvolvido por alunos com o objetivo de criar uma aplicação Java capaz de se comunicar com a impressora Elgin i9, utilizando comandos ESC/POS, testes de impressão e interação via porta de comunicação.
-O trabalho faz parte da disciplina de Programação Orientada a Objetos.
+---
 
-🧰 Tecnologias Utilizadas
+## 🧰 Tecnologias Utilizadas
 
-Java 17
+- **Java 17**
+- **IntelliJ IDEA**
+- **Biblioteca ESC/POS**
+- **Driver/SDK da Elgin i9**
+- *(Opcional)* Maven ou Gradle
 
-IntelliJ IDEA
+---
 
-Biblioteca ESC/POS
+## 📁 Estrutura do Projeto
 
-Driver/SDK da Elgin i9
+/src → Código-fonte principal
+/lib → Bibliotecas e dependências externas
+/docs → Materiais adicionais e documentação
+/examples → Testes e arquivos de demonstração
 
-(Opcional) Maven ou Gradle
 
-📁 Estrutura do Projeto
-/src        → Código-fonte principal
-/lib        → Bibliotecas e dependências externas
-/docs       → Materiais adicionais e documentação
-/examples   → Testes e arquivos de demonstração
+---
 
-⚙️ Instalação e Execução
-🔽 1. Baixar o Projeto do GitHub
+## ⚙️ Instalação e Execução
 
-Acesse o repositório.
+### 🔽 1. Baixar o Projeto do GitHub
+1. Acesse o repositório.
+2. Clique no botão **Code**.
+3. Selecione **Download ZIP**.
+4. Aguarde o download.
 
-Clique no botão Code (verde).
+### 📦 2. Extrair o Arquivo ZIP
+1. Vá até o local onde o arquivo foi salvo.
+2. Clique com o botão direito → **Extrair aqui** / **Extract All**.
+3. Será criada uma nova pasta com os arquivos.
 
-Escolha Download ZIP.
+### 🧭 3. Importar no IntelliJ IDEA
+1. Abra o **IntelliJ IDEA**.
+2. Clique em **Open**.
+3. Escolha a pasta extraída.
+4. Aguarde o carregamento.
+5. Caso apareça, clique em **Import Project** (Maven/Gradle).
+6. Verifique o SDK em:
+   - *File → Project Structure → Project SDK → Java 17*
+7. Abra o arquivo `Main.java` e clique em ▶️ **Run**.
 
-Aguarde o download terminar.
+---
 
-📦 2. Extrair o Arquivo ZIP
+## 🧪 Testes
 
-Vá até a pasta onde o ZIP foi salvo.
+- Teste de conexão com a impressora
+- Impressão de texto simples
+- Envio de comandos **ESC/POS**
+- Verificação das portas de comunicação
+- Teste com várias mensagens
 
-Clique com o botão direito → Extrair aqui ou Extract All.
+---
 
-Será criada uma pasta com o conteúdo do projeto.
+## 📚 Documentação Adicional
 
-🧭 3. Importar no IntelliJ IDEA
+- Manual da Impressora **Elgin i9**
+- Documentação do **SDK Elgin**
+- Referência **ESC/POS**
 
-Abra o IntelliJ IDEA.
+---
 
-Clique em Open.
+## 👥 Autores  
+*(em ordem alfabética)*
 
-Navegue até a pasta extraída do projeto.
-
-Clique em OK.
-
-Aguarde o carregamento dos arquivos.
-
-Se o IntelliJ detectar Maven/Gradle, clique em Import Project.
-
-Verifique se o Java SDK está correto:
-File → Project Structure → Project SDK (Java 17)
-
-Abra o arquivo Main.java.
-
-Clique no botão ▶️ Run.
-
-🧪 Testes
-
-Testar conexão com a impressora
-
-Testar impressão de texto simples
-
-Enviar comandos ESC/POS
-
-Validar portas de comunicação
-
-Testar diferentes mensagens de entrada
-
-📚 Documentação Adicional
-
-Manual da impressora Elgin i9
-
-Documentação do SDK Elgin
-
-Referência ESC/POS
-
-👥 Autores
-
-(Listar os autores em ordem alfabética.)
-
-Ana Beatriz Souza
-
-Carlos Henrique Pereira
-
-Marcos Vinicius Almeida
+- Ana Beatriz Souza
+- Carlos Henrique Pereira
+- Marcos Vinicius Almeida
